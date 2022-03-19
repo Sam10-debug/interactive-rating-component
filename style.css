@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+}
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: .8rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+.star{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.container >p{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.text > p{
+    color: hsl(217, 12%, 63%);
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-gap: 10px;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.numbers .n1{
+    background-color:  hsl(213, 19%, 22%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(217, 12%, 63%);
+}
+.numbers .n2{
+    background-color:  hsl(213, 19%, 22%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(217, 12%, 63%);
+}
+.numbers .n3{
+    background-color:  hsl(213, 19%, 22%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(217, 12%, 63%);
+}
+.numbers .n4{
+    background-color:  hsl(213, 19%, 22%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(217, 12%, 63%);
+}
+.numbers .n5{
+    background-color:  hsl(213, 19%, 22%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(217, 12%, 63%);
+}
+.numbers .n1:hover{
+    background-color:hsl(25, 97%, 53%); 
+    color: white;
+}
+.numbers .n2:hover{
+    background-color:hsl(25, 97%, 53%); 
+    color: white;
+}
+.numbers .n3:hover{
+    background-color:hsl(25, 97%, 53%); 
+    color: white;
+}
+.numbers .n4:hover{
+    background-color:hsl(25, 97%, 53%); 
+    color: white;
+}
+.numbers .n5:hover{
+    background-color:hsl(25, 97%, 53%); 
+    color: white;
+}
+.submit{
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 1rem;
+    height: 30px;
+    padding-top: 7px;
+    color: white;
+}
+.submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+.second{
+    display: none;
+}
+.attribution .code{
+    font-size: .9rem;
+    color: white;
+}
+.attribution .challenge{
+    font-size: .9rem;
+    color: white;
+}
