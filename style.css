@@ -110,6 +110,9 @@ body {
 .second {
   display: none;
 }
+a{
+    text-decoration: none;
+}
 .second.active {
   display: flex;
   flex-direction: column;
