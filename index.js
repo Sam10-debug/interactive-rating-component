@@ -16,6 +16,8 @@ const submitfunc=()=>{
     if (arr.length!==0){
         container.classList.toggle("active")
         second.classList.toggle("active")
+    }else if (arr.length===0){
+        alert("You have not selected a rating yet")
     }
 }
 submit.addEventListener('click',submitfunc)
