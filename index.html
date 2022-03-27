@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
-</head>
-<body>
-  <div class="container">
-    <div class="star"><img src="images/icon-star.svg"></div>
-    <p class="how">How did we do?</p>
-    <div class="text">
-      <p>  Please let us know how we did with your</p>
-      <p> support request. All feedback is appreciated </p>
-      <p> to help us improve our offering!</p>
-    </div>
-    <div class="numbers">
-      <div class="n1">1</div>
-      <div class="n2">2</div>
-      <div class="n3">3</div>
-      <div class="n4">4</div>
-      <div class="n5">5</div>
-    </div>
-    <div class="submit">SUBMIT</div>
-  </div>
-  <!-- Rating state start -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="container">
+        <div class="star"><img src="images/icon-star.svg" /></div>
+        <p class="how">How did we do?</p>
+        <div class="text">
+          <p>Please let us know how we did with your</p>
+          <p>support request. All feedback is appreciated</p>
+          <p>to help us improve our offering!</p>
+        </div>
+        <div class="numbers">
+          <div class="n1" id="digits" data-value="1">1</div>
+          <div class="n2" id="digits" data-value="2">2</div>
+          <div class="n3" id="digits" data-value="3">3</div>
+          <div class="n4" id="digits" data-value="4">4</div>
+          <div class="n5" id="digits" data-value="5">5</div>
+        </div>
+        <div class="submit">SUBMIT</div>
+      </div>
+      <!-- Rating state start -->
 
-  <!-- Rating state end -->
-  <div class="second">
-    <div class="third"><img src="images/illustration-thank-you.svg"></div>
-    <div class="select"> You selected <span id="rating"></span> out of  5</div>
-    <p class="thank ">Thank you!</p>
-    <div class="text2">
-      <p class="textt">We appreciate you taking the time to give a</p>
-      <p class="textt"> rating. If you ever need more support, 
-        don’t</p>
-        <p class="textt"> hesitate to get in touch! </p>
-    </div>
-  </div>
+      <!-- Rating state end -->
+      <div class="second">
+        <div class="third"><img src="images/illustration-thank-you.svg" /></div>
+        <div class="select"></div>
+        <h2>Thank you!</h2>
+        <p class="textt">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
 
-  
-  <div class="attribution">
-    <span class="code">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </span>
-   <span class="challenge"> Coded by <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/">Emor Musk</a>.</span>
-  </div>
-  <script src="index.js"></script>
-</body>
+      <div class="attribution">
+        <span class="code"
+          >Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >.
+        </span>
+        <span class="challenge">
+          Coded by
+          <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/"
+            >Emor Musk</a
+          >.</span
+        >
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
